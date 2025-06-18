@@ -21,7 +21,7 @@
     <PackageReference Include="MediatR" />
     <PackageReference Include="BuildBundlerMinifier" Condition="'$(Configuration)'=='Release'" />
     <!-- Vulnerable package for security testing - GHSA-f87w-3j5w-v58p -->
-    <PackageReference Include="CefSharp.WinForms" Version="120.1.110" />
+    <PackageReference Include="CefSharp.WinForms" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
